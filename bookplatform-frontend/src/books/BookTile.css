@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.bookTileDiv {
+    width: 20%;
+    margin-bottom: 5%;
+    padding: 2%;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+}
+
+.bookTileImg {
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    margin-bottom: .5em;
+}
+
+.bookDescriptionDiv h2 {
+    font-size: 22px;
+    margin-top: .5em;
+}
+
+.bookDescriptionDiv p {
+    font-size: .9rem;
+}
+
+.stars {
+    color: yellow;
+    font-size: 1.5rem;
+}

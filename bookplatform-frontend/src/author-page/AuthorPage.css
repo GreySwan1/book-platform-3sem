@@ -1,0 +1,105 @@
+.authorContainerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+.authorCoverDiv {
+    margin-bottom: 20px;
+}
+
+.authorPictureImg {
+    max-width: 100%;
+    height: auto;
+}
+
+.authorInfoDiv {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.authorInfoDiv h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.authorInfoDiv h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.authorRatingDiv {
+    font-size: 18px;
+    color: #ffd700;
+}
+
+.authorDescription {
+    margin-top: 10px;
+}
+
+.reviewsH2 {
+    text-align: center;
+}
+
+.reviewContainerDiv {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.reviewDiv {
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.reviewAuthorDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+.reviewAvatarImg {
+    width: 128px;
+    height: 128px;
+}
+
+.reviewerUsername {
+    font-weight: bold;
+}
+
+
+@media (min-width: 768px) {
+    .authorContainerDiv {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .review {
+        background-color: #1a1a1a;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .authorCoverDiv {
+        margin-right: 20px;
+    }
+
+    .authorInfoDiv {
+        margin-top: 0;
+    }
+}

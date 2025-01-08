@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.topnav {
+    background-color: #1a1a1a;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Montserrat;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+.book-cover {
+    margin-bottom: 20px;
+}
+
+.book-cover img {
+    max-width: 100%;
+    height: auto;
+}
+
+.book-info {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.book-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.author {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.rating {
+    font-size: 18px;
+    color: #ffd700;
+}
+
+.reviews {
+    text-align: center;
+}
+
+.review-author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+.review-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.review {
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 128px;
+    height: 128px;
+}
+
+.description {
+    margin-top: 10px;
+}
+
+.username {
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .review {
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .book-cover {
+        margin-right: 20px;
+    }
+
+    .book-info {
+        margin-top: 0;
+    }
+}
+

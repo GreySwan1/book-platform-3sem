@@ -1,0 +1,105 @@
+.userContainerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+.userCoverDiv {
+    margin-bottom: 20px;
+}
+
+.userPictureImg {
+    max-width: 100%;
+    height: auto;
+}
+
+.userInfoDiv {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.userInfoDiv h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.userInfoDiv h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.userRatingDiv {
+    font-size: 18px;
+    color: #ffd700;
+}
+
+.userDescription {
+    margin-top: 10px;
+}
+
+.reviewsH2 {
+    text-align: center;
+}
+
+.reviewContainerDiv {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.reviewDiv {
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.reviewAuthorDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+.reviewAvatarImg {
+    width: 128px;
+    height: 128px;
+}
+
+.reviewerUsername {
+    font-weight: bold;
+}
+
+
+@media (min-width: 768px) {
+    .userContainerDiv {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .review {
+        background-color: #1a1a1a;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .userCoverDiv {
+        margin-right: 20px;
+    }
+
+    .userInfoDiv {
+        margin-top: 0;
+    }
+}

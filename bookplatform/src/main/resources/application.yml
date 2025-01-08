@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://109.196.98.32:5432/bookplatform
+    driver-class-name: org.postgresql.Driver
+    username: greyswan
+    password: greyswan

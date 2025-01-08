@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.authorTileDiv {
+    width: 20%;
+    margin-bottom: 5%;
+    padding: 2%;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+}
+
+.authorTileImg {
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    margin-bottom: .5em;
+}
+
+.authorDescriptionDiv h2 {
+    font-size: 22px;
+    margin-top: .5em;
+}
+
+.authorDescriptionDiv p {
+    font-size: .9rem;
+}
